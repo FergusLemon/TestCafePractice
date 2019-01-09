@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "nodemon --exec babel-node bin/www",
-    "test": "testcafe chrome test/feature/newSpec.js --app \"node app.js\"",
+    "test": "testcafe chrome test/feature/newSpec.js --app \"node bin/www\"",
     "jshint": "./node_modules/.bin/jshint"
   },
   "repository": {
